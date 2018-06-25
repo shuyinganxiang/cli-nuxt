@@ -55,10 +55,9 @@
         </el-menu>
       </div>
       
-      <el-radio-group v-model="isCollapse" style="margin-bottom: 20px;">
+      <!-- <el-radio-group v-model="isCollapse" style="margin-bottom: 20px;">
         <el-radio-button :label="!isCollapse">展开</el-radio-button>
-        <!-- <el-radio-button :label="true">收起</el-radio-button> -->
-      </el-radio-group>
+      </el-radio-group> -->
     </div>
   </div>
 </template>
@@ -74,9 +73,15 @@
 </style>
 <script>
   export default {
+    props: {
+      isCollapse: {
+        type: Boolean,
+        default: false
+      }
+    },
     data() {
       return {
-        isCollapse: true
+        // isCollapse: true
       };
     },
     methods: {

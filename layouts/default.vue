@@ -1,18 +1,12 @@
 <template>
-  <div>  
-    <lnav />
+  <div>
     <!-- <p>项目demo-默认布局中的内容</p> -->
     <nuxt/>
   </div>
 </template>
 
 <script>
-import lnav from '../components/common/leftNav'
-export default {
-  components:{
-    lnav
-  }
-}
+export default {}
 </script>
 
 

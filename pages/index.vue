@@ -1,5 +1,6 @@
 <template>
   <div>
+    <nuxt-link :to="{name:'mains'}">进入内容页</nuxt-link>
     <!-- <ul>
       <li><nuxt-link :to="{name:'index'}">HOME</nuxt-link></li>
       <li><nuxt-link :to="{name:'about'}">ABOUT</nuxt-link></li>
