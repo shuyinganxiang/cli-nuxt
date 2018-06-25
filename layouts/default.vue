@@ -1,9 +1,20 @@
 <template>
   <div>  
-    <p>项目demo--默认布局中的内容</p>
+    <lnav />
+    <!-- <p>项目demo-默认布局中的内容</p> -->
     <nuxt/>
   </div>
 </template>
+
+<script>
+import lnav from '../components/common/leftNav'
+export default {
+  components:{
+    lnav
+  }
+}
+</script>
+
 
 <style>
 html {

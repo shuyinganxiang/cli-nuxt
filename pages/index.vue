@@ -1,14 +1,14 @@
 <template>
   <div>
-    <ul>
+    <!-- <ul>
       <li><nuxt-link :to="{name:'index'}">HOME</nuxt-link></li>
       <li><nuxt-link :to="{name:'about'}">ABOUT</nuxt-link></li>
       <li><nuxt-link :to="{name:'news',params:{newsId:3306}}">NEWS</nuxt-link></li>
       <li><nuxt-link :to="{name:'asyncdata'}">ansycdata</nuxt-link></li>
     </ul>
-    <div class="pic">
-      <!-- <img src="~static/index/favicon.png" alt=""> -->
-    </div>
+    <div class="pic"> -->
+      <!-- <img src="~static/index/logo.png" alt=""> -->
+    <!-- </div>
     <el-radio v-model="radio" label="1">备选项</el-radio>
     <el-radio v-model="radio" label="2">备选项</el-radio>
     <div class="aa">
@@ -17,7 +17,7 @@
           测试less
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
  
@@ -40,7 +40,7 @@ export default {
  .pic{
    width: 100px;
    height: 100px;
-   background: url('~static/index/favicon.png') no-repeat center center;
+   background: url('~static/index/logo.png') no-repeat center center;
    background-size: 100% 100%;
  }
  /* .aa {
