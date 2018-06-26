@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>index-content</h2>
+    <h2>manger-content</h2>
     <el-pagination
       background
       :page-size="20"
@@ -8,5 +8,6 @@
       layout="prev, pager, next"
       :total="100">
     </el-pagination>
+    <scolt />
   </div>
 </template>

@@ -1,27 +1,13 @@
 <template>
   <div class="yun-page">
     <div class="lnav" :class="{ lnavhid: isCollapse }">
-      <!-- :class="lnavhid?!isCollapse:false" -->
       <div class="lnav-top" :class="{ lnavhid: isCollapse }">
         <img src="~static/index/logo.png" alt="">
         <h1 class="title" v-show="!isCollapse">云图在线</h1>
       </div>
       <div class="lnav-content">
-        <!-- <el-tree :data="data" highlight-current="true" accordion="true" :props="defaultProps" @node-click="handleNodeClick"></el-tree> -->
-        <!-- <el-radio-group v-model="isCollapse" style="margin-bottom: 20px;">
-          <el-radio-button :label="false">展开</el-radio-button>
-          <el-radio-button :label="true">收起</el-radio-button>
-        </el-radio-group> -->
         <el-menu default-active="1-4-1" class="el-menu-vertical-demo nav-menu" :class="{ lnavhid: isCollapse }" @open="handleOpen" @close="handleClose" :collapse="isCollapse" 
         background-color="black" text-color="#fff" active-text-color="red">
-          <!-- <el-menu-item index="0">
-            <i class="lnav-top"><img src="~static/index/logo.png" alt=""></i>
-            <span slot="title" class="title">云图在线</span>
-          </el-menu-item> -->
-          <!-- <el-menu-item index="2">
-            <i class="el-icon-menu"></i>
-            <span slot="title">导航二</span>
-          </el-menu-item> -->
           <el-menu-item index="4">
             <i class="el-icon-picture-outline"></i>
             <span slot="title">图片</span>
@@ -32,16 +18,8 @@
               <span slot="title">管理</span>
             </template>
             <div class="child">
-              <!-- <span slot="title">分组一</span> -->
               <el-menu-item index="1-1">分类</el-menu-item>
             </div>
-            <!-- <el-menu-item-group title="分组2">
-              <el-menu-item index="1-3">选项3</el-menu-item>
-            </el-menu-item-group>
-            <el-submenu index="1-4">
-              <span slot="title">选项4</span>
-              <el-menu-item index="1-4-1">选项1</el-menu-item>
-            </el-submenu> -->
           </el-submenu>
         </el-menu>
       </div>
