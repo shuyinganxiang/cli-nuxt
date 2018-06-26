@@ -44,12 +44,12 @@
   .top-nav {
     /* float: left; */
     margin-left: 256px;
-    background-color: deeppink;
+    /* background-color: deeppink; */
   }
   .contents {
     margin-left: 256px;
-    height: 300px;
-    background-color: greenyellow;
+    height: 500px;
+    background-color: #eee;
   }
   .lnavhid {
     margin-left: 80px;
