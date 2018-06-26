@@ -8,6 +8,5 @@
       layout="prev, pager, next"
       :total="100">
     </el-pagination>
-    <scolt />
   </div>
 </template>

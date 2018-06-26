@@ -6,19 +6,19 @@
         <h1 class="title" v-show="!isCollapse">云图在线</h1>
       </div>
       <div class="lnav-content">
-        <el-menu default-active="1-4-1" class="el-menu-vertical-demo nav-menu" :class="{ lnavhid: isCollapse }" @open="handleOpen" @close="handleClose" :collapse="isCollapse" 
-        background-color="black" text-color="#fff" active-text-color="red">
-          <el-menu-item index="4">
+        <el-menu :default-active="$route.path" class="el-menu-vertical-demo nav-menu" :class="{ lnavhid: isCollapse }" @open="handleOpen" @close="handleClose" :collapse="isCollapse" 
+        background-color="black" text-color="#fff" active-text-color="red" router>
+          <el-menu-item index="/picture">
             <i class="el-icon-picture-outline"></i>
             <span slot="title">图片</span>
           </el-menu-item>
-          <el-submenu index="1">
+          <el-submenu index="2">
             <template slot="title">
               <i class="el-icon-setting"></i>
               <span slot="title">管理</span>
             </template>
             <div class="child">
-              <el-menu-item index="1-1">分类</el-menu-item>
+              <el-menu-item index="/manger">分类</el-menu-item>
             </div>
           </el-submenu>
         </el-menu>
