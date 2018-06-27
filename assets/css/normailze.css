@@ -3,15 +3,15 @@ html{
 }
 
 /* 全局设置页面的进入离开动画 */
-.page-enter-active, .page-leave-active {
+/* .page-enter-active, .page-leave-active {
   transition: opacity 1s;
 }
 .page-enter, .page-leave-active {
   opacity: 0;
-}
+} */
 
 /* 字体的全局设置放大缩小 */
-.test-enter-active, .test-leave-active {
+/* .test-enter-active, .test-leave-active {
   transition: all 1s;
   font-size:16px;
   
@@ -19,4 +19,4 @@ html{
 .test-enter, .test-leave-active {
   opacity: 0;
   font-size:28px;
-}
+} */

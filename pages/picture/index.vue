@@ -48,6 +48,7 @@
   }
   .contents {
     margin-left: 256px;
+    padding: 24px;
     height: 500px;
     background-color: #eee;
   }
